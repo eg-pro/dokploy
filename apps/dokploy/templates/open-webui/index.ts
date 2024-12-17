@@ -15,7 +15,7 @@ export function generate(schema: Schema): Template {
 			serviceName: "open-webui",
 		},
 	];
-	const envs = ["OLLAMA_DOCKER_TAG=0.1.47", "WEBUI_DOCKER_TAG=0.3.7"];
+	const envs = ["OLLAMA_DOCKER_TAG=0.5.1", "WEBUI_DOCKER_TAG=0.4.8"];
 
 	return {
 		envs,
